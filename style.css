@@ -13,9 +13,7 @@ body {
 table {
   border-collapse: collapse; /* This is crucial so borders don't double up */
   border: 4px solid #333;
-  
-  /* Pro-move: set the table background to the light wood color. 
-     Now you ONLY need to add the "dark" class to the dark squares! */
+
   background-color: #f0d9b5; 
 }
 
