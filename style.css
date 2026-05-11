@@ -58,12 +58,20 @@ header p {
 }
 
 .chess-board .light {
-  background-color: #b3ebf2;
-  color: #2B2D42;
+  background-color: #adf5ff;
 }
 
 .chess-board .dark {
-  background-color: #2B2D42;
-  color: #b3ebf2;
+  background-color: #4d517e;
+}
+
+.chess-board .black-p {
+  color: #000000;
+  -webkit-text-stroke: 0.4px rgb(255, 255, 255);
+}
+
+.chess-board .white-p {
+  color: #f4fcfe;
+  -webkit-text-stroke: 0.4px black;
 }
 
